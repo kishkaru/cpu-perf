@@ -8,6 +8,8 @@ int main(int argc, char *argv[]){
 	hwCounter_t c1;
 	c1.init = false;
 	initTicks(c1);
+	
+	printf("%s", argv[0]);
 
 	//int n = atoi(argv[1]);
 	long long sum = 0;
