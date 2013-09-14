@@ -1,7 +1,11 @@
+# For memory latency
+#for i in {8000..2000000..1000}
+#	 do
+#		./latency $i
+#done
 
-
-
-for i in {8000..2000000..1000}
+# For memory bandwidth
+for i in {8000..2000000..10000}
 	 do
-		./latency $i
+		./bandwidth $i 2
 done

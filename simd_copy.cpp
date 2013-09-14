@@ -108,15 +108,15 @@ void simd_memcpy_cache(void *dst, void *src, size_t nbytes)
     }
 }
 
-int main(int argc, char *argv[])
-{
-  int myarray[10];
-  for(int i=0; i<10; i++)
-    myarray[i] = i;
+// int main(int argc, char *argv[])
+// {
+  // int myarray[10];
+  // for(int i=0; i<10; i++)
+    // myarray[i] = i;
   
-  int copiedarray[10];
-  simd_memcpy(copiedarray, myarray, 10*sizeof(int));
+  // int copiedarray[10];
+  // simd_memcpy(copiedarray, myarray, 10*sizeof(int));
 
-  for(int i=0; i<10; i++)
-    printf("copied[%d] = %d\n", i, copiedarray[i]);
-}
+  // for(int i=0; i<10; i++)
+    // printf("copied[%d] = %d\n", i, copiedarray[i]);
+// }

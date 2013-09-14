@@ -20,8 +20,6 @@ int main(int argc, char *argv[]){
 		int temp = theArray[i];
 		theArray[i] = theArray[x];
 		theArray[x] = temp;
-		
-		//printf("%d \n", theArray[i]);
 	}
 	
 	int index = 0;
